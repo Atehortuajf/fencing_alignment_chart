@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #plane-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+  
+  #plane {
+    background-color: #eee;
+    border: 1px solid #000;
+  }
+  
+  .axis {
+    stroke: black;
+    stroke-width: 1;
+  }
+  
+  .axis-label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .point {
+    fill: red;
+    stroke: black;
+    stroke-width: 1;
+  }
+  
+  .point-label {
+    font-size: 12px;
+    fill: black;
+  }
+  
+  button {
+    font-size: 18px;
+  }
+  
